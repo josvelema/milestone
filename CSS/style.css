@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Questrial|Share+Tech&display=swap');
+
+body {
+    background-color: rgba(10, 7, 35, 0.7);
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Share Tech', sans-serif;
+}
+
+
+h3 {
+    font-family: 'Questrial', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400 ;
+    color: #fbfbfb;
+}
+
+.head {
+    background-color: transparent;
+    width: 75%;
+    height: 100px;
+    color: #fafafa;
+    margin: 0 auto;
+    padding: 2px 2px 2px 2px;
+}
+
+.hero-image {
+    background: url("../img/emxheroimage.jpg")no-repeat center center fixed;
+    background-position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: border-box;
+    min-height: 600px;
+    transition: height 5s ease-in-out;
+    -moz-transition: all 5s ;
+    -webkit-transition: all 5s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    float: left;
+    margin: 0 ;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5)
+}
+
+
+.callout {
+    font-family: 'Share Tech', sans-serif;
+    color: #fafafa;
+    letter-spacing: 2px;
+    font-weight: 300;
+    width: 40%;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    padding: 5px 15px 5px 15px;
+    background-color: rgba(20, 15, 35, 0.8);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    display: inline-block;
+}
+
+.foot {
+    width: 90%;
+    height: 100px;
+    background-color: rgba(25, 25, 25, 0.5);
+    color: #fafafa;
+    border-radius: 5px 5px;
+    border-color: #777777;
+    position: relative;
+    float: left;
+    margin: 5px auto;
+    padding: 10px 30px 10px 30px;
+
+}
