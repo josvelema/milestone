@@ -1,3 +1,6 @@
+body {
+    background-color: #1e0f5e;
+}
 
 h1 {
     font-family: 'Share Tech', sans-serif;
@@ -13,12 +16,12 @@ h3 {
 h2 {
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 400 ;
-    color: #fbfbfb;
+    color: #000000;
 }
 
 
 .rj-container-main {
-    height: 70vh;
+    height: 120vh;
      background: url(../img/emxheroimage.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -39,8 +42,35 @@ h2 {
     background-color: rgba(0,0,0,0.5)
 }
 
-.rj-container-nav {
-       background-color: rgba(10, 7, 35, 0.7);
-       width: 100%
-       height: 75px;
+
+.navbar {
+       background-color: rgba(30,15,94, .25);
+       width: 100%;
     }
+
+#rj-musik{
+    background-image: url("../img/modularcolor.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+#rj-musik div{
+   color: #fafafa;
+   background-color: rgba(0,0,0, .6);
+   width: 33%;
+   height: 300px;
+   float: left;
+   padding: 30px 0 0 10px;
+   text-align: center;
+   margin: 2px;
+
+}
+
+
+#rj-musik h2{
+    color:#fafafa;
+}
