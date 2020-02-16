@@ -8,12 +8,12 @@ h1 {
 
 
 h3 {
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Source Code Pro', monospace;
     font-weight: 300;
     letter-spacing: 1px;
 }
 
-h2 {
+h2 , h1{
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 400 ;
     color: #000000;
@@ -57,8 +57,16 @@ h2 {
 .navbar-nav .nav-item .nav-link {
     color: #d65900;
 }
+.navbar-nav .nav-item .nav-link .active {
+    color: #fad3af;
+}
+
 .navbar .navbar-brand {
-font-weight: bold;
+color:#fad3af;
+font-weight: 100;
+font-size:22px;
+letter-spacing: 3px;
+font-family: 'Righteous', sans-serif , cursive;
 }
 
 #rj-musik{
