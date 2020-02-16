@@ -44,9 +44,22 @@ h2 {
 
 
 .navbar {
-       background-color: rgba(30,15,94, .25);
+       background-color: rgba(0,44,80, .80);
        width: 100%;
     }
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar .navbar-nav {
+    font-weight: italic;
+    }
+.navbar-nav .nav-item .nav-link {
+    color: #d65900;
+}
+.navbar .navbar-brand {
+font-weight: bold;
+}
 
 #rj-musik{
     background-image: url("../img/modularcolor.jpg");
@@ -56,6 +69,10 @@ h2 {
     width: 100%;
     overflow: hidden;
 
+}
+.rj-intro {
+    color:#fad3af;
+    background-color: rgba(0,44,80, .74);
 }
 
 #rj-musik div{
@@ -74,3 +91,4 @@ h2 {
 #rj-musik h2{
     color:#fafafa;
 }
+
