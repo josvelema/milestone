@@ -16,12 +16,12 @@ h3 {
 h2 , h1{
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 400 ;
-    color: #000000;
+    color: #fad3af;
 }
 
 
 .rj-container-main {
-    height: 120vh;
+    height: 100vh;
      background: url(../img/emxheroimage.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -55,14 +55,15 @@ h2 , h1{
     font-weight: italic;
     }
 .navbar-nav .nav-item .nav-link {
-    color: #d65900;
-}
-.navbar-nav .nav-item .nav-link .active {
     color: #fad3af;
+    text-shadow: 0 0 3px #d65900af;
+    font-family: 'Source Code Pro', monospace;
+    letter-spacing: 2px;
 }
 
 .navbar .navbar-brand {
-color:#fad3af;
+color:#fad3af; 
+text-shadow: 0 0 4px #d65900;
 font-weight: 100;
 font-size:22px;
 letter-spacing: 3px;
@@ -80,7 +81,8 @@ font-family: 'Righteous', sans-serif , cursive;
 }
 .rj-intro {
     color:#fad3af;
-    background-color: rgba(0,44,80, .74);
+    background-color: rgba(0,44,80, 0.85);
+    height: 50vh;
 }
 
 #rj-musik div{
