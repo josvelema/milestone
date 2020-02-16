@@ -54,11 +54,17 @@ h2 , h1{
 .navbar .navbar-nav {
     font-weight: italic;
     }
-.navbar-nav .nav-item .nav-link {
+.navbar .navbar-nav .nav-item .nav-link {
     color: #fad3af;
-    text-shadow: 0 0 3px #d65900af;
+    text-shadow: 0 0 3px #d65900;
     font-family: 'Source Code Pro', monospace;
     letter-spacing: 2px;
+    line-height: 40px;
+}
+
+.navbar .navbar-nav a:hover {
+    font-size: 110%;
+    text-decoration: underline solid #d65900
 }
 
 .navbar .navbar-brand {
