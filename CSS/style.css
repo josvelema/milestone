@@ -1,6 +1,7 @@
-font-family: 'IBM Plex Mono', monospace;
+/* font-family: 'IBM Plex Mono', monospace;
 font-family: 'Encode Sans Semi Condensed', sans-serif;
 font-family: 'Vampiro One', cursive;
+*/
 
 body {
     background-color: #1e0f5e;
@@ -47,10 +48,49 @@ h2 {
 }
 
 
-.navbar {
+/* .navbar {
        background-color: rgba(30,15,94, .25);
        width: 100%;
-    }
+    }*/
+
+.navbar  {
+  font-family: 'Vampiro One', Sans Serif;  
+  background-color: transparent;
+  border: 5px solid red;
+  color: #fafafa;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+
+
+
+.navbar .navbar-nav .nav-item {
+     padding: 12px;
+     margin: 8px;
+    background-color: rgba(0, 44, 80,0.4);
+    color: rgba(0, 44, 80);
+    font-size: 20px;
+    letter-spacing:3px;
+    text-decoration: none;
+    text-transform: lowercase;
+    text-shadow:1px 0 #eecc00, 0 1px 3px #f68f1a ;
+    border: 3px outset;
+    border-color:#2a72a2 #1C4C6C #193366 #2e5cb8;
+    border-width: thin medium thick thin;
+    border-radius:18%;
+    transition: 0.3s;
+}
+.navbar .navbar-nav .nav-item:hover{
+
+    background-color: rgba(35, 71, 144,0.4);
+    text-decoration: underline;
+    border: 3px inset;
+    border-width: thick thin thin medium;
+    border-color:#193366 #2e5cb8 #2a72a2 #1c4c6c;
+}
 
 #rj-musik{
     background-image: url("../img/modularcolor.jpg");
